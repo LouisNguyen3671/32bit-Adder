@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../32bitadder.srcs/sources_1/new/fa_32.v" \
+"../../../../32bitadder.srcs/sim_1/new/tb_fa_32.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
